@@ -2,11 +2,6 @@ baseURL = "http://localhost:1313/"
 languageCode = "en-us"
 title = "Professor Portfolio"
 theme = "PaperMod"
-[build]
-  publish = "public"
-  command = "hugo"
-[build.environment]
-  HUGO_VERSION = "0.111.3"
 
 [params]
 [params.profileLinks]
