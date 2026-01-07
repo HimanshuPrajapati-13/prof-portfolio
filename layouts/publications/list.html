@@ -1,0 +1,21 @@
+{{ define "main" }}
+<h1>{{ .Title }}</h1>
+
+{{ if .Content }}
+<div class="intro">
+  {{ .Content }}
+</div>
+{{ end }}
+
+<ul>
+{{ range (.Pages.ByParam "year").Reverse }}
+  <li>
+    <strong>{{ .Title }}</strong><br>
+    {{ delimit .Params.authors ", " }} ({{ .Params.year }})<br>
+    <em>{{ .Params.journal }}</em>
+  </li>
+{{ end }}
+</ul>
+
+{{ end }}
+

@@ -1,0 +1,85 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom" xmlns:content="http://purl.org/rss/1.0/modules/content/">
+  <channel>
+    <title>Home on Professor Portfolio</title>
+    <link>http://localhost:1313/</link>
+    <description>Recent content in Home on Professor Portfolio</description>
+    <generator>Hugo -- 0.154.2</generator>
+    <language>en-us</language>
+    <atom:link href="http://localhost:1313/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>Climate Change Adaptation Strategies</title>
+      <link>http://localhost:1313/publications/paper4/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      <guid>http://localhost:1313/publications/paper4/</guid>
+      <description></description>
+    </item>
+    <item>
+      <title>Climate Change Impacts on Semi-Arid Ecosystems</title>
+      <link>http://localhost:1313/publications/paper1/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      <guid>http://localhost:1313/publications/paper1/</guid>
+      <description>&lt;p&gt;Short abstract or summary of the paper.lorem ipsum dolor sit amet, consectetur adipiscing elit. lorem ipsum dolor sit amet, consectetur adipiscing elit.&lt;/p&gt;</description>
+    </item>
+    <item>
+      <title>Ecosystem Restoration Techniques</title>
+      <link>http://localhost:1313/publications/paper3/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      <guid>http://localhost:1313/publications/paper3/</guid>
+      <description></description>
+    </item>
+    <item>
+      <title>Sustainable Energy Technologies</title>
+      <link>http://localhost:1313/publications/paper6/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      <guid>http://localhost:1313/publications/paper6/</guid>
+      <description></description>
+    </item>
+    <item>
+      <title>Sustainable Urban Development Practices</title>
+      <link>http://localhost:1313/publications/paper2/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      <guid>http://localhost:1313/publications/paper2/</guid>
+      <description></description>
+    </item>
+    <item>
+      <title>Urban Planning for Sustainable Development</title>
+      <link>http://localhost:1313/publications/paper5/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      <guid>http://localhost:1313/publications/paper5/</guid>
+      <description></description>
+    </item>
+    <item>
+      <title>Workshop 1</title>
+      <link>http://localhost:1313/workshops/workshop1/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      <guid>http://localhost:1313/workshops/workshop1/</guid>
+      <description>&lt;h3 id=&#34;attended&#34;&gt;Attended&lt;/h3&gt;
+&lt;ul&gt;
+&lt;li&gt;Climate Change Adaptation Strategies&lt;/li&gt;
+&lt;li&gt;Date: August 15-17, 2024&lt;/li&gt;
+&lt;li&gt;Description: A workshop focused on developing strategies for adapting to climate change impacts in vulnerable regions.
+&lt;ul&gt;
+&lt;li&gt;Link: &lt;a href=&#34;https://example.com/climate-change-adaptation&#34;&gt;Workshop Details&lt;/a&gt;&lt;/li&gt;
+&lt;/ul&gt;
+&lt;/li&gt;
+&lt;/ul&gt;</description>
+    </item>
+    <item>
+      <title>Workshop 2</title>
+      <link>http://localhost:1313/workshops/workshop2/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      <guid>http://localhost:1313/workshops/workshop2/</guid>
+      <description>&lt;h3 id=&#34;attended&#34;&gt;Attended&lt;/h3&gt;
+&lt;ul&gt;
+&lt;li&gt;&lt;strong&gt;Sustainable Urban Development&lt;/strong&gt;&lt;/li&gt;
+&lt;li&gt;Date: September 20-22, 2024&lt;/li&gt;
+&lt;li&gt;Description: A workshop on implementing sustainable urban development practices to enhance community resilience.
+&lt;ul&gt;
+&lt;li&gt;Link: &lt;a href=&#34;https://example.com/sustainable-urban-development&#34;&gt;Workshop Details&lt;/a&gt;&lt;/li&gt;
+&lt;/ul&gt;
+&lt;/li&gt;
+&lt;/ul&gt;</description>
+    </item>
+  </channel>
+</rss>
