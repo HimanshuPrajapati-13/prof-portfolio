@@ -15,5 +15,11 @@ My work focuses on translating environmental research into practical policy and 
 - Environmental Policy  
 - Ecosystem Dynamics  
 
-📄 [Download CV](/files/cv.pdf)  
-📧 xyz@university.edu
+
+<div class="home-links">
+  <a class="home-btn" href="/files/CV Resume.pdf" target="_blank">Download CV</a>
+  <a class="home-btn" href="mailto:xyz@university.edu">Contact</a>
+</div>
+
+
+

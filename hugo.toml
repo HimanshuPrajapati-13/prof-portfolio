@@ -4,6 +4,10 @@ title = "Professor Portfolio"
 theme = "PaperMod"
 
 [params]
+[params.profileLinks]
+scholar = "https://scholar.google.com/citations?user=XXXXXXXX"
+orcid = "https://orcid.org/0000-0000-0000-0000"
+customCSS = ["css/custom.css"]
 author = "Your Name"
 defaultTheme = "light"
 ShowReadingTime = false
@@ -45,3 +49,8 @@ weight = 6
 name = "Contact"
 url = "/contact/"
 weight = 7
+
+[markup]
+  [markup.goldmark]
+    [markup.goldmark.renderer]
+      unsafe = true

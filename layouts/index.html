@@ -7,24 +7,46 @@
   </div>
 </article>
 
+{{ with site.Params.profileLinks }}
+<div class="profile-links">
+  {{ with .scholar }}
+    <a href="{{ . }}" target="_blank" class="profile-link">Google Scholar</a>
+  {{ end }}
+  {{ with .orcid }}
+    <a href="{{ . }}" target="_blank" class="profile-link">ORCID</a>
+  {{ end }}
+</div>
+{{ end }}
+&nbsp;
 <!-- Latest Publications -->
 <section class="latest-publications">
   <h2>Latest Publications</h2>
 
-  <ul>
+  <ul class="pub-list">
     {{ $pubs := where site.RegularPages "Section" "publications" }}
-    {{ range first 5 ($pubs.ByParam "year").Reverse }}
-      <li>
+    {{ range first 4 ($pubs.ByParam "year").Reverse }}
+      <li class="pub-item">
         <strong>{{ .Title }}</strong><br>
         {{ delimit .Params.authors ", " }} ({{ .Params.year }})<br>
         <em>{{ .Params.journal }}</em>
+
+        <div class="pub-links">
+          {{ with .Params.pdf }}
+            <a class="pub-btn" href="{{ . }}" target="_blank">PDF</a>
+          {{ end }}
+          {{ with .Params.doi }}
+            <a class="pub-btn" href="{{ . }}" target="_blank">DOI</a>
+          {{ end }}
+        </div>
       </li>
     {{ end }}
   </ul>
 
-  <p>
+  <p class="view-all">
     <a href="/publications/">View all publications →</a>
   </p>
 </section>
 
 {{ end }}
+
+
