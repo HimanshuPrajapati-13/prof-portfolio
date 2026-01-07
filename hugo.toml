@@ -1,4 +1,4 @@
-baseURL = "http://localhost:1313/"
+baseURL = "https://profportfolioweb.netlify.app/
 languageCode = "en-us"
 title = "Professor Portfolio"
 theme = "PaperMod"
